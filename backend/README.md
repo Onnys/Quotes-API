@@ -41,3 +41,21 @@ export FLASK_ENV=development
 flask run
 ```
 ## Endpoints
+- GET '/authors'
+- GET '/quotes'
+    Returns a list of all quotes.
+- GET '/authors/<int:author_id>/quotes'
+    Returns a list of all quotes from an author.
+- GET '/authors/search'
+
+- GET '/quotes/search'
+- POST '/authors'
+- POST '/quotes'
+- PATCH '/quotes/<int:quote_id>'
+- DELETE '/quotes/<quote_id>'
+
+GET '/authors'
+- Fetches a dictionary of Authors.
+- Request Argument: none.
+- Returns: A JSON with list of Authors objects and a success value.
+bash``` ```
