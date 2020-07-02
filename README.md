@@ -1,6 +1,5 @@
 # Quotes API
-Reflexoes is an restful API where Authors can write quotes and share with others, this api allows users to be exponteneoly on their ideas without being cesunred.
-
+Reflexoes is a restful API where Authors can write quotes and share with others, this api allows users to be spontaneous on their ideas without being censured.
 ## Getting Started 
 
 ### Installing Dependencies
