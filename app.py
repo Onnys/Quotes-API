@@ -146,7 +146,7 @@ def create_app(test_config=None):
         else:
             return jsonify({
                 'success':False,
-                'msg':'The author id doesn\'t math'
+                'msg':'The author id doesn\'t match'
             })
     
     
